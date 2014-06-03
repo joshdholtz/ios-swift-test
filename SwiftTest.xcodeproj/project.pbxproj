@@ -12,6 +12,7 @@
 		032C5770193D72C10068422A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032C576E193D72C10068422A /* Main.storyboard */; };
 		032C5772193D72C10068422A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 032C5771193D72C10068422A /* Images.xcassets */; };
 		032C577E193D72C10068422A /* SwiftTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032C577D193D72C10068422A /* SwiftTestTests.swift */; };
+		032C5788193D75680068422A /* LayoutOfRelativity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032C5787193D75680068422A /* LayoutOfRelativity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		032C5777193D72C10068422A /* SwiftTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		032C577C193D72C10068422A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		032C577D193D72C10068422A /* SwiftTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestTests.swift; sourceTree = "<group>"; };
+		032C5787193D75680068422A /* LayoutOfRelativity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutOfRelativity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				032C576A193D72C10068422A /* AppDelegate.swift */,
 				032C576C193D72C10068422A /* ViewController.swift */,
+				032C5787193D75680068422A /* LayoutOfRelativity.swift */,
 				032C576E193D72C10068422A /* Main.storyboard */,
 				032C5771193D72C10068422A /* Images.xcassets */,
 				032C5768193D72C10068422A /* Supporting Files */,
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				032C5788193D75680068422A /* LayoutOfRelativity.swift in Sources */,
 				032C576D193D72C10068422A /* ViewController.swift in Sources */,
 				032C576B193D72C10068422A /* AppDelegate.swift in Sources */,
 			);

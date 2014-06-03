@@ -1,11 +1,18 @@
 ios-swift-test
 ==============
 
+## Initial Thoughts
+My initial thoughts of Swift are pretty positive. Syntax flows pretty nicely. Autocompletion already built into Xcode is pretty great (makes finding properites and methods that are different in Objective-C pretty easy to find).
+
+One "gotcha" I found was that I created another file called "LayoutOfRelativity.swift" and I didn't need to import it into my ViewController to used it - I wasted to some time trying to figure out how to import it.
+
 ### ViewController
 
 A simple UIViewController that has a lable and button. The button is placed relative to the label using the [extension on UIView](#extension) I created
 
 ```swift
+import UIKit
+
 class ViewController: UIViewController {
                             
     override func viewDidLoad() {

@@ -12,7 +12,16 @@ class ViewController: UIViewController {
                             
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // Creating a label
+        var label : UILabel = UILabel(frame: CGRect(x: 10, y: 10, width: CGRectGetWidth(self.view.bounds), height: 40));
+        label.center = self.view.center;
+        label.textAlignment = NSTextAlignment.Center; // This is different
+        label.text = "Omg I set a label";
+        
+        // Adding a label as a subview to the view
+        self.view.addSubview(label);
+        
     }
 
     override func didReceiveMemoryWarning() {
